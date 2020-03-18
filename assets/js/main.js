@@ -1,5 +1,5 @@
-let roomsArray = ["Conservatory ", "Dining Room ", "Kitchen ", "Guest House ", "Patio", "Ballroom"];
-let weaponsArray = [" pistol", "trophy", "knife", "dumbbell ", "bat", "axe "];
+let roomsArray = ["Conservatory ", "Dining Room ", "Kitchen ", "Guest House ", "Patio", "Ballroom", "Library ", "Billiard Room "];
+let weaponsArray = [" pistol", "trophy", "knife", "dumbbell ", "bat", "axe ", "poison ", "rope ", "candlestick "];
 let suspectsArray = [
     {
         Name: 'mrGreen ',
@@ -37,8 +37,8 @@ let suspectsArray = [
 let random1, random2, random3;
 
 randomNum = () => {
-    random1 = Math.floor(Math.random() * 6);
-    random2 = Math.floor(Math.random() * 6);
+    random1 = Math.floor(Math.random() * 8);
+    random2 = Math.floor(Math.random() * 9);
     random3 = Math.floor(Math.random() * 6);
 }
 
